@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Sample Template for installing nginx with Init
+Paramaters:
+Mappings:
+  RegionMap:
+    us-east-1: #for testing
+      NginxAMI: ami-0a887e401f7654935
+    eu-west-1:
+      NginxAMI: ami-04d5cc9b88f9d1d39
+Resources:
+  EC2:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      ImageId: !FindInMap [RegionMap, !Ref 'AWS::Region', NginxAMI]
+      InstanceType: t2.micro
+      KeyName: DohKey2
+      UserData:
+        "Fn::Base64":
+          !Sub |
+            #!/bin/bash
+            yum update -y aws-cfn-bootstrap # good practice - always do this.
+            /opt/aws/bin/cfn-init -v --stack ${AWS::StackName} --resource EC2 --configsets nginx --region ${AWS::Region}
+            yum -y update
