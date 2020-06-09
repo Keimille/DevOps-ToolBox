@@ -9,8 +9,11 @@
 ``aws ec2 create-key-pair --key-name mytestkey``
 - Create template from scratch (for practice but not necesarry) There is a sample template in this repository.
 - Validate template
-``aws cloudformation validate-template --template-body file://ec2nginx.yaml``
+``aws cloudformation validate-template --template-body file://template.yaml``
 - Launch template
-``aws cloudformation create-stack --stack-name myteststack1 --template-body file://ec2nginx.yaml``
+``aws cloudformation create-stack --stack-name myteststack1 --template-body file://template.yaml``
 
 You can check your stack progress by using the command ``aws cloudformation describe-stacks``
+
+- Delete stack
+``aws cloudformation delete-stack --stack-name myteststack1``
