@@ -37,6 +37,7 @@
 - Terminate EC2 instances ``aws ec2 terminate-instances --instance-id <id>``
 - List all EC2 instances per Tag - ``aws ec2 describe-tags --query Tags[?ResourceType==`instance`] --output json``
 - Launch EC2 - ``aws ec2 run-instances --image-id <ami> --count <integer> --instance-type <ex. t2.micro>``
+- Create key pair - ``aws ec2 create-key-pair --key-name <key name>``
 
 
 ## RDS Commands
