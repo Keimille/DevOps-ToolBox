@@ -8,4 +8,9 @@
 - Clone your repository 
 ``git clone <url>``
 
+- Add index.html file to repository
+``git init``
+``git add -A``
+``git commit``
+
 
