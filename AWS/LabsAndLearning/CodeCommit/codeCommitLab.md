@@ -9,6 +9,8 @@
 ``git clone <url>``
 
 - Add index.html file to repository
+
+- Commit code to repository 
 ``git init``
 ``git add -A``
 ``git commit``
