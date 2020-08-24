@@ -2,3 +2,5 @@
 - docker run <container image> <command> - run container 
 - time docker run <container image> <command> - print time to execute command
 - docker image - shows all the docker images available on your computer
+- docker stop <container name> - to stop running container
+- docker container rm <container id> - to remove a stopped container
