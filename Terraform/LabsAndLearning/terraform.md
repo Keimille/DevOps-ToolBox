@@ -9,4 +9,4 @@ However, there are links to the answers within the repository.
 1. Create a workspace named test in the command line and navigate between the two.
 2. List all workspaces
 3. switch to default workspace
-4. Destroy workspace
+4. Destroy test workspace
