@@ -10,3 +10,11 @@ However, there are links to the answers within the repository.
 2. List all workspaces
 3. switch to default workspace
 4. Destroy test workspace
+
+## Modules
+### Lab 1 - Sourcing a Module and Specific Version from Github
+1. Create a module repository from Github or fork this one
+
+## Syntax
+### Drill 1 - Create EC2 resource
+1. Recall resource block that creates ec2 resource without refrencing documentation
