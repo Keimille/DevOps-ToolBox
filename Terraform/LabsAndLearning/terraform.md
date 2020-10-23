@@ -17,4 +17,4 @@ However, there are links to the answers within the repository.
 
 ## Syntax
 ### Drill 1 - Create EC2 resource
-1. Recall resource block that creates ec2 resource without refrencing documentation
+1. Recall only one resource block that creates two ec2 instances resource without refrencing documentation. Include tags to include ami id, and instance type.
