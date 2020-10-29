@@ -10,7 +10,7 @@ However, there are links to the answers within the repository.
 
 1. Create a workspace named test in the command line and navigate between the two.
 2. List all workspaces
-3. switch to default workspace
+3. Switch to default workspace
 4. Destroy test workspace
 
 ## Modules
@@ -20,8 +20,17 @@ However, there are links to the answers within the repository.
 1. Create a module repository from Github or [fork this one](https://github.com/Keimille/terraform-aws-s3website)
 2. Create a terraform plan without any errors
 
+### Lab 2 - Source a Module That is Located Locally
+
+1.Clone the repository mentioned in Lab 1
+2. Create a terraform plan without any errors by sourcing the module locally
+
 ## Syntax
 
 ### Drill 1 - Create EC2 resource
 
 1. Recall only one resource block that creates two ec2 instances resource without refrencing documentation. Include tags to include ami id, and instance type.
+
+## Recommended Lectures and Videos
+
+- [Terraform Best Practices With Examples and Arguments](https://www.youtube.com/watch?v=mOsiLZGdXS4)
