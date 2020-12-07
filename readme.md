@@ -7,5 +7,6 @@ road map in order to modify for my specific situation and background.
 
 ## Recommended Books
 
+- [The Clean Coder](https://www.amazon.com/dp/0137081073) by Robert C. Martin
+- [The Phoenix Project](https://www.amazon.com/dp/1942788290) by Gene Kim, Kevin Behr, and George Spafford
 - [Ultra Learning](https://www.scotthyoung.com/blog/ultralearning/) by Scott Young
-- [The Clean Coder](https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073) by Robert C. Martin
